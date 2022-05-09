@@ -1,0 +1,3 @@
+module MovieReservation {
+	requires junit;
+}
