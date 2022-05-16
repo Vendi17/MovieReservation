@@ -18,3 +18,6 @@ public  class Address {
 	}
 
 }
+/*RESZLETESEBB INFORMACIO:
+ * Ez a class nem lett hasznalva, mert tul bonyolitott rendszert kellett leegyszerusiteni igy elveszitette ertelmet, hogy hasznalva legyen
+ */

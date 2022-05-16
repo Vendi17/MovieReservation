@@ -11,6 +11,6 @@ public class Movie2DVersion extends FilmAdding {
 	}
 
 	public String toString() {
-		return (MovieName + "" + MovieTime);
+		return (MovieName + " " + MovieTime + " " + super.getTerem());
 	}
 }
