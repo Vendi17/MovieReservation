@@ -1,7 +1,7 @@
 package movieReservation;
 
 /*
- * Itt is csak az ulohelyek konstruktora latszodik
+ * Itt is csak az ulohelyek konstruktora latszodik,de a program leegyszerusitese vegett nem lett vegul hasznalva
  */
 public class MovieSeats {
 

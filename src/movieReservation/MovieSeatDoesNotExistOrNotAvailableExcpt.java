@@ -1,7 +1,7 @@
 package movieReservation;
 
 /*
- * Exception kezelesek. Ez akkor jon ha mar nem kaphato jegy sem ules 
+ * Exception kezelesek. Ez akkor jon ha mar nem kaphato jegy sem ules. Veglegesen ki lett szedve a programbol, mint a JegyekEsUlesek class.
  */
 public class MovieSeatDoesNotExistOrNotAvailableExcpt extends Exception {
 

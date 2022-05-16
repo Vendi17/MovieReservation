@@ -1,10 +1,14 @@
 package movieReservation;
+
 /*
  * Itt található a jegyek száma és az ülések száma majd a konstruktor,setter/getter is
  * a vegen található egy boolean maradek,ami ertelemszeruen azt a celt szolgalja
  * ,hogy a mgetortent vasarlas utan mennyi jegy maradt hatra
  * es hogy 5-nel tobb jegyet ne lehessen venni
- */
+ * 
+ * 
+ * Vegul a program leegyszerusiteseert nem hasznaljuk ezt a reszt! Kedden tudok rola meselni!
+ * */
 public class JegyekEsUlesek {
 	private int jNumber; // jegyek száma
 
@@ -29,4 +33,11 @@ public class JegyekEsUlesek {
 			return true;
 		}
 	}
+
+
+
+
 }
+
+
+

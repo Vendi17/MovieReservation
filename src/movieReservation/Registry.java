@@ -7,25 +7,26 @@ import java.util.Scanner;
 /*
  * itt található a nev es a telefonszam konstruktora is
  */
-public  class Registry {
+public class Registry {
 	Scanner sc = new Scanner(System.in);
-	 private String Nev; 
-	 private String telefonSzam;
-	//private String email;
-	//private Address addr;
+	private String Nev;
+	private String telefonSzam;
+	// private String email;
+	// private Address addr;
 
 	public Registry(String Nev, String telSzam) {
 		this.Nev = Nev;
 		this.telefonSzam = telSzam;
 	}
 	/*
-	 * Itt történik meg a bekérdezés, ami hiba kezelve van ABC sorrendben 
-	 * vagy szam sorrendben ugye a telefonnal.
+	 * Itt történik meg a bekérdezés, ami hiba kezelve van ABC sorrendben vagy szam
+	 * sorrendben ugye a telefonnal.
+	 * VIGYAZAT,HA VALAMELYIKET ELIROD A HIBAKEZELESNEL UJRA A BECENEVET KERDEZI!
 	 */
 
 	public void Regisztralas() {
 		try {
-			System.out.println("Add meg a neved: ");
+			System.out.println("Add meg a beceneved (Teljes név nem elfogadható!): ");
 
 			String Nev = sc.nextLine();
 
@@ -50,9 +51,10 @@ public  class Registry {
 			Regisztralas();
 		}
 	}
-	
+
 	/*
-	 * lejebb csak Setterek/Getterek és a hibakezeleshez tartozo kriteriumok lathatoak
+	 * lejebb csak Setterek/Getterek és a hibakezeleshez tartozo kriteriumok
+	 * lathatoak
 	 */
 
 	public void setNev(String Nev) {
